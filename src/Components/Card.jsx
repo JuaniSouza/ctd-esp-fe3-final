@@ -11,7 +11,7 @@ const Card = ({item}) => {
   return (
     <div className="card">
         <Link to={"/dentist/" + id}>
-        <img src="/assets/images/doctor.jpg" alt="doctor" />
+        <img src="assets/images/doctor.jpg" alt="doctor" />
         <h3>{name}</h3>
         <h4>{username}</h4>
         </Link>
