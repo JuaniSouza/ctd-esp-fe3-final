@@ -1,0 +1,9 @@
+{
+    "serve": {
+    "staticFiles": {
+        "routes": [
+        { "src": "/assets/(.*)", "dest": "/assets/$1" }
+        ]
+    }
+}
+}
